@@ -15,6 +15,9 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://fredagsbarometer.dk" target="_blank">
+          <img src={"https://fredagsbarometer.dk/assets/logo-small-b5abe37c.svg"} className="logo react" alt="Fredagsbarlogo logo" />
+        </a>
       </div>
       <h1>Vite + React</h1>
       <div className="card">
@@ -24,6 +27,12 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+      </div>
+      {/* Button for Awesome Site by Creator: fredagsbarometer.dk */}
+      <div className="card">
+        <a href="https://fredagsbarometer.dk" target="_blank">
+          <button>Visit fredagsbarometer.dk</button>
+        </a>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
